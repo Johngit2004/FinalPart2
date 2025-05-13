@@ -1,0 +1,187 @@
+body {
+  font-family: 'Segoe UI', sans-serif;  /* Text Font */
+  line-height: 1.5;  /* Padding for text */
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333333;  /* Text color */
+}
+
+header {
+  background-color: #0077CC;
+  color: #333333; 
+  text-align: center;
+  padding: 20px 10px;
+}
+
+header .button {
+  display: inline-block;
+  margin-top: 15px;
+  background: #ffffff;
+  color: #333333;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+  position: sticky; /* Navigation Bar scrolls with you*/
+  top: 0;
+  text-align: center;
+}
+
+.navbar ul {  /* Bulletpoints*/
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li { /* Bulletpoints*/
+  display: inline;
+  margin: 0 15px;
+}
+
+.navbar a { /* Anchor*/
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+}
+
+.MainWebPic { /* Website Main Picture*/
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  max-width: 2000px;
+  width: 100%;
+  margin: auto;
+}
+
+.overlay { /* Main picture*/
+  position: relative;
+  width: 100%;
+  max-width: 1500px;
+}
+
+.race { /* Mainwebsite Image*/
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.overlayt { /* Overlay Text*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  padding: 15px 25px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 600px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.1rem;
+}
+
+section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  color: #333333;
+}
+
+h2 {
+  color: #333333;
+  margin-bottom: 10px;
+  }
+.prizeweb {
+  display: inline-block;
+  background-color: #333333;   
+  color: #FFD700;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.prizeweb:hover {
+  background-color: #f44336;  
+}
+}
+ul {
+  padding-left: 20px;
+  color: #333333;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eeeeee;
+  color: #333333;
+  margin-top: 60px;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in-image {
+  animation: fadeInLeft 1.5s ease-out forwards;
+  opacity: 0;
+}
+
+.aboutsection {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+  color: #333333;
+}
+
+.aboutpicture {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.atext {
+  flex: 1;
+  min-width: 250px;
+  color: #333333;
+}
+
+.abimg {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+.rulesimages {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.rimg {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
